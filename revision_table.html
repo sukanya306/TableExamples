@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revision for tables</title>
+    <style>
+        body{
+            background-image: url(backimg.jpg);
+            background-repeat: no-repeat;
+            height: 100%;
+            background-size: cover;
+            color: rgb(37, 42, 43);
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+           align-content: center;
+           align-items: center;
+            
+        }
+        #table1 table, th, td{
+            border: 3px solid black;
+            margin-left: 40px;
+            border-radius: 5px;
+            border-collapse:collapse;
+        }
+        #table1 th,td{
+            padding: 10px;
+        }
+        #table1 caption{
+            color: blanchedalmond;
+        }
+        /*#table2 table, th, td{
+            border: 3px solid black;
+            margin-left: 40px;
+            border-radius: 5px;
+            background-color:rgb(159, 172, 112);
+        }
+        #table2 th,td{
+            padding: 10px;  
+        }
+        #table2 caption{
+            color: blanchedalmond;
+        }
+        #table3 table, th, td{
+            border: 3px solid black;
+            margin-left: 40px;
+            border-radius: 5px;
+            background-color:rgb(159, 172, 112);
+        }
+        #table3 th,td{
+            padding: 10px;   
+        }
+        #table3 caption{
+            color: blanchedalmond;
+        }
+        #table4 table, th, td{
+            border: 3px solid black;
+            margin-left: 40px;
+            border-radius: 5px;
+            background-color:rgb(159, 172, 112);
+        }
+        #table4 th,td{
+            padding: 10px;    
+        }
+        #table4 caption{
+            color: blanchedalmond;
+        }
+        #table5 table, th, td{
+            border: 3px solid black;
+            margin-left: 40px;
+            border-radius: 5px;
+            background-color:rgb(159, 172, 112);
+        }
+        #table5 th,td{
+            padding: 10px;
+        }
+        #table5 caption{
+            color: blanchedalmond;
+        }
+        #table6 table, th, td{
+            border: 3px solid black;
+            margin-left: 40px;
+            border-radius: 5px;
+            background-color:rgb(159, 172, 112);
+        }
+        #table6 th,td{
+            padding: 10px;
+        }
+        #table6 caption{
+            color: blanchedalmond;
+        }*/
+        #table2 table, th, td{
+            border: 3px solid black;
+            margin-left: 40px;
+            border-radius: 5px;
+            background-color:rgb(159, 172, 112);
+        }
+        #table2 th,td{
+            padding: 10px;
+        }
+        #table2 caption{
+            color: blanchedalmond;
+    </style>
+</head>
+<body>
+    <div id="table1">
+        <table>
+            <caption>Table 1</caption>
+            <tr>
+                <th>Menu</th>
+                <th>Calories</th>
+                <th>Fat(g)</th>
+            </tr>
+            <tr>
+                <td>Chicken noodle soup</td>
+                <td>120</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Casear salad</td>
+                <td>400</td>
+                <td>26</td>
+            </tr>
+        </table>
+    </div>
+    <div id="table2">
+        <table>
+            <caption>Table 2</caption>
+            <tr>
+                <th>IWP</th>
+                <th rowspan="1">8:00 - 10:00</th>
+                <th rowspan="1">12:00 - 2:00</th>
+            </tr>
+            <tr>
+                <td>Days</td>
+                <td>Monday</td>
+                <td>Friday</td>
+            </tr>
+        </table>
+    </div>
+    <div id="table2">
+        <table>
+            <caption>Table 3</caption>
+            <tr>
+                <th rowspan="5">Size of the shirt</th>
+            </tr>
+            <tr>
+                <td>Short (s)</td>
+            </tr>
+            <tr>
+                <td>Large (L)</td>
+            </tr>
+            <tr>
+                <td>Extra Large (XL)</td>
+            </tr>
+            <tr>
+                <td>Others (XXL)</td>
+            </tr>
+
+        </table>
+    </div>
+    <div id="table2">
+        <table>
+            <caption>Table 4</caption>
+            <tr>
+                <th>Apples</th>
+                <th rowspan="3">Oranges</th>
+                <th>Pears</th>
+            </tr>
+            <tr>
+                <td>Bananas</td>
+                <td rowspan="2">Pinapple</td>
+            </tr>
+            <tr>
+                <td>lichi</td>
+
+            </tr>
+        </table>
+    </div>
+    <div id="table2">
+        <table>
+            <caption>Table 5</caption>
+            <tr>
+                <th>Menu items</th>
+                <th>Calories</th>
+                <th>Fat(g)</th>
+            </tr>
+            <tr>
+                <td>Chicken noodle soup</td>
+                <td>120</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Caeser salad</td>
+                <td>400</td>
+                <td>26</td>
+            </tr>
+        </table>
+    </div>
+    <div id="table2">
+        <table>
+            <caption>Table 6</caption>
+            <tr>
+                <th rowspan="2"></th>
+                <th colspan="2">A common header for two subheads</th>
+                <th rowspan="2">Header 3</th>
+            </tr>
+            <tr>
+                <td >Header 1</td>
+                <td >Header 2</td>
+            </tr>
+            <tr>
+                <td>Thing A</td>
+                <td>data A1</td>
+                <td>data A2</td>
+                <td>data A3</td>
+            </tr>
+            <tr>
+                <td>Thing B</td>
+                <td>data B1</td>
+                <td>data B2</td>
+                <td>data B3</td>
+            </tr>
+            <tr>
+                <td>Thing C</td>
+                <td>data C1</td>
+                <td>data C2</td>
+                <td>data C3</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
